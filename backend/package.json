@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "learning backend",
+  "homepage": "https://github.com/rick1613/Intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/rick1613/Intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick1613/Intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Rick",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0",
+    "nodemon": "^3.1.14"
+  }
+}
